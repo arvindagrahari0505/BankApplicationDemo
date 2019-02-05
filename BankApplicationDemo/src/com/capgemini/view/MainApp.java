@@ -85,7 +85,7 @@ public class MainApp {
 	private static void withdraw() {
 		System.out.print("Enter your account number : ");
 		long accountNumber = sc.nextLong();
-		System.err.print("Enter the amount you want to withdraw from your account : ");
+		System.out.print("Enter the amount you want to withdraw from your account : ");
 		double amount = sc.nextDouble();
 		
 		try {
